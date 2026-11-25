@@ -18,3 +18,9 @@ Para usar em qualquer projeto, copie as pastas de `.claude/skills/` para `~/.cla
 Faz a IA questionar o próprio resultado: aponta requisitos ambíguos ou incompletos, cenários não cobertos e os maiores riscos para o usuário e para o negócio. Quando falta informação, lista como dúvida para o time de produto.
 
 Uso: rode `/revisar-casos-de-teste` logo depois de `/gerar-casos-de-teste`, na mesma conversa.
+
+## validar-casos-de-teste
+
+Auditoria independente dos casos de teste gerados por IA, como QA Sênior (ISTQB CTFL v4.0.1 e CT-GenAI v1.1). Avalia cada caso em seis lentes (aderência, cobertura, dados e limites, risco, executabilidade, rastreabilidade) com notas de 0 a 2, classifica em aprovado, aprovado com ressalvas, reprovado ou pendente de esclarecimento e entrega resumo executivo, matriz de avaliação, análise detalhada, lacunas de cobertura e plano de ação P0–P3.
+
+Uso: rode `/validar-casos-de-teste` depois de `/gerar-casos-de-teste`, na mesma conversa, ou passe requisitos e casos como argumento.
