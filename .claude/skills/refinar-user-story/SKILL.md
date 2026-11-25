@@ -257,7 +257,7 @@ Considere:
 
 ## 5. FORMATO OBRIGATÓRIO DA RESPOSTA
 
-Organize a resposta em sete partes.
+Organize a resposta em cinco partes.
 
 ### PARTE 1 — DIAGNÓSTICO EXECUTIVO
 
